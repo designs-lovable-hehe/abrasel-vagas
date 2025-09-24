@@ -23,11 +23,11 @@ import {
 
 export default function Settings() {
   const [companySettings, setCompanySettings] = useState({
-    companyName: 'TechJobs',
-    companyEmail: 'contato@techjobs.com',
+    companyName: 'Abrasel',
+    companyEmail: 'contato@abrasel.com',
     companyPhone: '(11) 99999-0000',
-    companyWebsite: 'https://techjobs.com',
-    companyDescription: 'Plataforma de recrutamento especializada em tecnologia.',
+    companyWebsite: 'https://abrasel.com',
+    companyDescription: 'Plataforma de recrutamento especializada no setor gastronômico.',
     companyAddress: 'São Paulo, SP'
   });
 

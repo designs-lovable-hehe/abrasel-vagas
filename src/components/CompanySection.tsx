@@ -15,7 +15,7 @@ export default function CompanySection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-3xl font-bold text-foreground mb-4">
-            Sobre a EmpregosBR
+            Sobre a Abrasel
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Somos uma empresa líder no mercado, comprometida com a excelência e o desenvolvimento 

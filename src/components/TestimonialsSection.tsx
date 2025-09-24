@@ -7,7 +7,7 @@ export default function TestimonialsSection() {
     {
       name: 'Carlos Oliveira',
       position: 'Vendedor',
-      comment: 'A EmpregosBR me deu a oportunidade de crescer profissionalmente. Ambiente excelente e equipe incrível!',
+      comment: 'A Abrasel me deu a oportunidade de crescer profissionalmente. Ambiente excelente e equipe incrível!',
       initials: 'CO'
     },
     {
@@ -19,7 +19,7 @@ export default function TestimonialsSection() {
     {
       name: 'Ricardo Santos',
       position: 'Supervisor',
-      comment: 'Trabalhar na EmpregosBR é estar em uma empresa que realmente valoriza seus funcionários.',
+      comment: 'Trabalhar na Abrasel é estar em uma empresa que realmente valoriza seus funcionários.',
       initials: 'RS'
     }
   ];

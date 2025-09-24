@@ -42,7 +42,7 @@ export default function Login() {
         <div className="text-center mb-8">
           <div className="flex items-center justify-center space-x-3 mb-4">
             <Briefcase className="h-10 w-10 text-white" />
-            <h1 className="text-3xl font-bold text-white">TechJobs</h1>
+            <h1 className="text-3xl font-bold text-white">Abrasel</h1>
           </div>
           <p className="text-white/80">Portal Administrativo</p>
         </div>
@@ -70,7 +70,7 @@ export default function Login() {
                   type="email"
                   value={credentials.email}
                   onChange={(e) => setCredentials(prev => ({ ...prev, email: e.target.value }))}
-                  placeholder="admin@techjobs.com"
+                  placeholder="admin@abrasel.com"
                   required
                   className="mt-1"
                 />
