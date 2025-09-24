@@ -35,7 +35,7 @@ const Header = () => {
             <Button 
               onClick={() => window.location.href = '/login'}
               variant="outline"
-              className="text-white border-white hover:bg-white hover:text-abrasel-green"
+              className="text-primary border-white hover:bg-white hover:text-abrasel-green"
             >
               Portal Administrativo
             </Button>
