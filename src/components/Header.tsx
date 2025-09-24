@@ -83,7 +83,7 @@ const Header = () => {
                   setIsMenuOpen(false);
                 }}
                 variant="outline"
-                className="text-white border-white hover:bg-white hover:text-abrasel-green mt-2 w-full"
+                className="text-primary border-white hover:bg-white hover:text-abrasel-green mt-2 w-full"
               >
                 Portal Administrativo
               </Button>
