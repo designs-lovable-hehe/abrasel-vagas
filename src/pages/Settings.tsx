@@ -64,17 +64,18 @@ export default function Settings() {
         <div className="flex-1 flex flex-col overflow-hidden">
           {/* Header */}
           <header className="bg-card shadow-soft border-b border-border">
-            <div className="flex items-center justify-between px-6 py-4">
-              <div className="flex items-center space-x-4">
+            <div className="flex items-center justify-between px-4 py-3 md:px-6 md:py-4">
+              <div className="flex items-center space-x-2 md:space-x-4 min-w-0 flex-1">
                 <SidebarTrigger className="text-muted-foreground" />
-                <div>
-                  <h1 className="text-2xl font-bold text-foreground">Configurações</h1>
-                  <p className="text-sm text-muted-foreground">Gerencie as configurações do sistema</p>
+                <div className="min-w-0 flex-1">
+                  <h1 className="text-lg md:text-2xl font-bold text-foreground truncate">Configurações</h1>
+                  <p className="text-xs md:text-sm text-muted-foreground truncate">Gerencie as configurações do sistema</p>
                 </div>
               </div>
-              <Button onClick={handleSave}>
-                <Save className="h-4 w-4 mr-2" />
-                Salvar Alterações
+              <Button onClick={handleSave} size="sm" className="ml-2 md:ml-4">
+                <Save className="h-3 w-3 md:h-4 md:w-4 mr-1 md:mr-2" />
+                <span className="hidden sm:inline">Salvar Alterações</span>
+                <span className="sm:hidden">Salvar</span>
               </Button>
             </div>
           </header>
