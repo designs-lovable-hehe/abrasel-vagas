@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -22,6 +22,10 @@ import {
 } from 'lucide-react';
 
 export default function Settings() {
+  useEffect(() => {
+    document.title = 'Configurações - Abrasel Portal';
+  }, []);
+
   const [companySettings, setCompanySettings] = useState({
     companyName: 'Abrasel',
     companyEmail: 'contato@abrasel.com',

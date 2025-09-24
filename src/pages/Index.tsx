@@ -1,7 +1,12 @@
+import { useEffect } from 'react';
 import Header from '@/components/Header';
 import JobApplicationForm from '@/components/JobApplicationForm';
 
 const Index = () => {
+  useEffect(() => {
+    document.title = 'Abrasel - Portal de Vagas Gastronômicas';
+  }, []);
+
   return (
     <div className="min-h-screen bg-gradient-subtle">
       <Header />

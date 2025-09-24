@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
@@ -103,6 +103,10 @@ const statusMap = {
 };
 
 export default function Applications() {
+  useEffect(() => {
+    document.title = 'Candidaturas - Abrasel Portal';
+  }, []);
+
   const [searchTerm, setSearchTerm] = useState('');
   const [filterJob, setFilterJob] = useState('all');
   const [filterStatus, setFilterStatus] = useState('all');
