@@ -19,7 +19,7 @@ import gerenteRestauranteImage from '@/assets/gerente-restaurante.jpg';
 import servicosGeraisImage from '@/assets/servicos-gerais.jpg';
 import cozinheiroImage from '@/assets/cozinheiro.jpg';
 import chefeCozinhaImage from '@/assets/chefe-cozinha.jpg';
-import officeHeroImage from '@/assets/office-hero.jpg';
+import restaurantHeroImage from '@/assets/restaurant-hero.jpg';
 
 const jobTypes = [
   { 
@@ -164,8 +164,8 @@ export default function JobApplicationForm() {
       <section className="relative py-12 md:py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src={officeHeroImage} 
-            alt="Ambiente de trabalho moderno" 
+            src={restaurantHeroImage} 
+            alt="Ambiente profissional de cozinha gastronômica" 
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/50"></div>
