@@ -121,7 +121,7 @@ export default function Portal() {
             {/* Stats Cards */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
               <Card className="shadow-soft border-l-4 border-l-primary">
-                <CardContent className="p-6">
+                <CardContent className="p-4">
                   <div className="flex items-center justify-between">
                     <div>
                       <p className="text-sm font-medium text-muted-foreground">Total</p>
@@ -135,7 +135,7 @@ export default function Portal() {
               </Card>
 
               <Card className="shadow-soft border-l-4 border-l-yellow-500">
-                <CardContent className="p-6">
+                <CardContent className="p-4">
                   <div className="flex items-center justify-between">
                     <div>
                       <p className="text-sm font-medium text-muted-foreground">Pendentes</p>
@@ -152,7 +152,7 @@ export default function Portal() {
               </Card>
 
               <Card className="shadow-soft border-l-4 border-l-green-500">
-                <CardContent className="p-6">
+                <CardContent className="p-4">
                   <div className="flex items-center justify-between">
                     <div>
                       <p className="text-sm font-medium text-muted-foreground">Aprovados</p>
@@ -166,7 +166,7 @@ export default function Portal() {
               </Card>
 
               <Card className="shadow-soft border-l-4 border-l-blue-500">
-                <CardContent className="p-6">
+                <CardContent className="p-4">
                   <div className="flex items-center justify-between">
                     <div>
                       <p className="text-sm font-medium text-muted-foreground">Taxa Aprovação</p>
@@ -177,9 +177,6 @@ export default function Portal() {
                     <div className="bg-blue-500/10 p-3 rounded-full">
                       <TrendingUp className="h-5 w-5 text-blue-500" />
                     </div>
-                  </div>
-                  <div className="flex items-center mt-2 text-sm">
-                    <span className="text-muted-foreground">Meta: 75%</span>
                   </div>
                 </CardContent>
               </Card>
