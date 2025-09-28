@@ -270,12 +270,6 @@ export default function Jobs() {
                         <div className="flex items-start justify-between mb-4">
                           <div className="flex-1">
                             <h3 className="font-semibold text-lg text-foreground mb-2">{job.title}</h3>
-                            <div className="flex flex-wrap gap-2 mb-3">
-                              <Badge variant="secondary">{jobTypes[job.type as keyof typeof jobTypes]}</Badge>
-                              <Badge className={statusMap[job.status as keyof typeof statusMap].color}>
-                                {statusMap[job.status as keyof typeof statusMap].label}
-                              </Badge>
-                            </div>
                           </div>
                           <div className="flex space-x-2">
                             <Button variant="ghost" size="sm">
