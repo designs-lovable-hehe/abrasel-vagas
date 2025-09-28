@@ -131,11 +131,6 @@ export default function Portal() {
                       <Users className="h-5 w-5 text-primary" />
                     </div>
                   </div>
-                  <div className="flex items-center mt-2 text-sm">
-                    <TrendingUp className="h-4 w-4 text-green-500 mr-1" />
-                    <span className="text-green-500">+12%</span>
-                    <span className="text-muted-foreground ml-1">vs mês passado</span>
-                  </div>
                 </CardContent>
               </Card>
 
@@ -166,11 +161,6 @@ export default function Portal() {
                     <div className="bg-green-500/10 p-3 rounded-full">
                       <CheckCircle className="h-5 w-5 text-green-500" />
                     </div>
-                  </div>
-                  <div className="flex items-center mt-2 text-sm">
-                    <TrendingUp className="h-4 w-4 text-green-500 mr-1" />
-                    <span className="text-green-500">+8%</span>
-                    <span className="text-muted-foreground ml-1">vs mês passado</span>
                   </div>
                 </CardContent>
               </Card>
