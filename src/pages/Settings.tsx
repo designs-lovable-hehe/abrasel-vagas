@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
+import { Card, CardHeader, CardTitle, CardContent, CardFooter } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -76,11 +76,6 @@ export default function Settings() {
                   <p className="text-xs md:text-sm text-muted-foreground truncate">Gerencie as configurações do sistema</p>
                 </div>
               </div>
-              <Button onClick={handleSave} size="sm" className="ml-2 md:ml-4">
-                <Save className="h-3 w-3 md:h-4 md:w-4 mr-1 md:mr-2" />
-                <span className="hidden sm:inline">Salvar Alterações</span>
-                <span className="sm:hidden">Salvar</span>
-              </Button>
             </div>
           </header>
 
@@ -168,6 +163,13 @@ export default function Settings() {
                     />
                   </div>
                 </CardContent>
+                <CardFooter className="flex justify-end">
+                  <Button onClick={handleSave} size="sm">
+                    <Save className="h-3 w-3 md:h-4 md:w-4 mr-1 md:mr-2" />
+                    <span className="hidden sm:inline">Salvar Alterações</span>
+                    <span className="sm:hidden">Salvar</span>
+                  </Button>
+                </CardFooter>
               </Card>
 
 
